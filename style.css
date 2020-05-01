@@ -1,0 +1,537 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+#headerrow{
+    background-color: #316DC3;  
+    width: 90%;
+    margin: 0px auto 0px auto;
+    
+}
+#headerrow1{
+    background-color: #316DC3;  
+    width: 90%;
+    margin: 0px auto 0px auto;
+    
+}
+.headericonsul{
+
+    
+  
+    padding: 0px;
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+   }
+ 
+   .headericonsli{
+       text-decoration: none;
+       display: inline-block;
+       padding-left: 10px;
+    
+     
+     
+       width: 30px;
+      
+   }
+.fonts-awesome{
+
+    color: white;
+    font-size: 1rem;
+}
+
+.fonts-awesome-whatsapp{
+   background-color:  #4ac959;
+    font-size: 1rem;
+    color: white;
+    /* padding: 7px;
+    height: 5vh; */
+}
+
+.headerpara{
+    text-align: center;
+    color: white;
+  
+    margin-top: 10px;
+
+
+    font-size: 14px;
+}
+
+.headerbuttons{
+    display: inline-block;
+
+
+}
+.headerbuttonli{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+ 
+    
+    background-color: #4ac959;
+
+}
+.headerbuttons>button{
+    color: #427900 ;
+    border: 1px solid #427900  ;
+    font-size: 11px;
+    padding:5px 10px;
+  
+ 
+}
+.logo{
+
+width: 15%;
+
+
+}
+.navbar-nav{
+   
+  color: #666666;
+
+    margin: 0px auto 0px auto;
+}
+.navul{
+   text-align: right;
+    display: flex;
+    
+    text-decoration: none;
+    
+   
+}
+
+nav .navbar-nav .dropdown-menu{
+  border-color: white; font-size: 12px;
+ padding-left: 10px;
+  margin-left: 20px;
+  
+}
+nav .navbar-nav .dropdown-menu>a{  
+    padding: 7px;
+    text-align: left;
+}
+nav .navbar-nav .dropdown-menu>a:hover{  
+  background-color: #316DC3;
+}
+.navlis{
+ flex-grow: 1;
+
+  padding-left: 20px;
+  
+list-style-type: none;
+
+}
+nav .navbar-nav li a{
+    color: #333333 !important;
+    
+    }
+nav .navbar-nav li a:hover{
+        color: white !important;
+        font-weight: 500;
+        
+    }
+.nav-link{
+    
+
+   
+    font-size: 13px;
+    padding: 8px 16px;
+    font-weight: 600;
+}
+/* .headerlis>li{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+ 
+} */
+
+.nav-item>a:hover{
+    border-radius: 30px;
+    
+ 
+    color: white;
+   margin: 0;
+   padding-top: 7px ;
+
+  
+
+
+    
+    background-color: #316DC3;
+}
+.nav-item>li:hover{
+    color: white;
+}
+
+.d-block{
+  
+  
+    padding: 0;
+    margin: 0;
+}
+.carouselcol{
+    padding: 10px;
+}
+.carouselbelowtext{
+    background-color: #316DC3; 
+    padding: 4px;
+   width: 85%; 
+   text-align: center;
+   margin: 0px auto 0px auto;
+   font-size: 14px;
+   color: white;
+}
+p>a{
+    color: darkblue;
+}
+.introheading{
+    color: #316DC3;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+ 
+
+}
+
+.spanduction{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.collogo>img{
+   
+     
+   
+        height: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  
+
+        
+     
+      
+}
+.linelogo{
+    margin: 0;padding: 0;
+}
+
+.lineImg{
+      color: #427900;
+      width: 4%;
+      font-weight: bolder;
+}
+.intropara{
+     width: 69%; margin: 20px auto 50px auto; text-align: justify; font-size: 14px; line-height: 1.9em; color: #666666;
+}
+.numericalcol{
+    padding-top: 2%;
+    padding-bottom: 7% ;
+    
+       
+
+}
+.Icons{
+    display: block; padding: 2%; margin: 50px auto 0px auto; height: 50px;
+}
+
+.IconHeading1{
+    display: block; text-align: center; padding: 2%; font-size: 43.2px; letter-spacing: 2px; font-family: 'Merriweather', serif;color: white; font-weight: 600;
+  
+    
+}
+.IconHeading2{
+    display: block; font-size: 15px; color: white; font-weight: bold;font-family: 'Merriweather', serif;
+   text-align: center;  margin: 0px auto 0px auto;
+}
+
+
+.monthlyspan{
+    font-size: 16px;
+    color:  #00ff00;
+    font-family: 'Merriweather', serif;
+    display: inline-block;  font-weight: bold;font-family: 'Merriweather', serif;
+    margin: 0px auto 0px auto; 
+    
+}
+#whatcardrow {
+    
+    width: 90%;
+text-align: center;
+padding-bottom: 4.5%;
+padding-top: 2%;
+
+margin: 0px auto 0px auto;
+
+
+
+    
+}
+.whatcardcol{
+       
+  padding-top: 2%;
+  
+} 
+.whatcard{
+    background-color: white;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+.whatcard>img{
+    padding-top:10%;
+    height: 100px;
+   
+}
+.card-heading{
+
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+    font-size: 18px;
+    margin: 7px 0px 10px;
+    text-align: center;
+    padding-bottom:5%;
+ 
+}
+#projrow{
+    width: 90%;
+ 
+    padding-bottom: 4%;
+    padding-top: 5%;
+    
+    margin: 0px auto 0px auto;
+  
+    
+}
+
+.missionupcomingheading{
+
+        color: #316DC3;
+        text-align:  left;
+   
+        font-weight: 600;
+        font-size: 24px;
+        font-family: 'Merriweather', serif;
+     
+    
+    
+}
+.linebottom{
+    /* bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 15px;
+    position: absolute;
+    width: 5%;
+    border-collapse: separate;
+    background-color: #427900; */
+
+    width: 4%;
+    color: #427900;
+    font-weight: bolder;
+    margin-top: -17px;
+}
+.projline{
+    color: #427900;
+    width: 6%;
+    margin: 0px auto 0px 0px;
+    
+    border: 1px solid #427900;
+    }
+.missionsubdivs{
+   
+    margin-top: 20px;
+
+ 
+  
+ 
+}
+
+.aimscard{
+background-color: #F7F8FA;
+    padding: 15px;
+}
+
+.aimsheading{
+    color: #316DC3; font-size: 15px; display: inline-block; padding: 15px 0px 7px 20px;   font-family: 'Merriweather', serif;
+}
+.footercols,.footercolmiddle{
+    padding-bottom: 40px;
+}
+.footercollast{
+    padding-bottom: 40px;
+}
+.footerpara{
+    margin: 90px auto 30px 80px;  color: #bbbbbb; font-size: 14px; font-family: sans-serif;
+}
+.footerul{
+    margin: -20px auto 5px 50px;
+    line-height: 1.7em;
+    font-family: sans-serif;
+}
+.footerlis{
+    text-decoration: none;
+    display: block;
+    color: #bbbbbb;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.footerlis>i{
+    color: #427900;
+}
+
+.usefullinksheading ,.connectwithusheading{
+    font-size: 14px;
+    font-family: 'Merriweather',serif;
+    color: white;
+    text-align: left;
+
+    margin-top: 60px;
+
+}
+.footersocialmediaul{
+    padding:0;
+    margin: 0;
+  
+}
+.footersocialmedialis{
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin: 2px 7px 2px 0;
+    width: 30px;
+    background-color: #316DC3;
+    border-radius: 50%;
+  
+
+}
+
+.footersocialmedialis>a {
+    color: white;
+margin-left: 10px;
+    
+}
+
+.lastcopyrightpara{
+    color: white;
+    font-size: 11px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #316DC3;
+    padding: 15px 0px 0px 90px;
+   
+
+}
+#myBtn {
+  
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+
+    border: none;
+    outline: none;
+    background-color: #666666;
+    opacity: 0.2;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    height: 8vh;
+  
+ 
+  }
+
+  
+  #myBtn:hover {
+    background-color: #555;
+    opacity: 1;
+  }
+  #myBtn>i{
+    font-size: 2.7rem;
+    margin-top: -10px;
+  
+  }
+@media only screen and (max-width: 767px) {
+    .footercols{
+        padding-bottom:20px;
+    }
+    .footercolmiddle{
+        padding-bottom: 0px;
+    }
+    .footercollast{
+        padding-bottom: 70px;
+    }
+    .footerpara{
+        margin-left: 0px;
+    }
+    .footerul{
+        margin: 0;
+        padding: 0;
+        margin-top: -20px;
+ 
+      
+
+    }
+ .footerlis{
+     display: inline-block;
+     padding-left: 15px;
+     margin-left: -10px;
+ }
+ .usefullinksheading{
+     margin-top: 0px;
+ }
+ .connectwithusheading{
+     margin-top: 0px;
+ }
+ .lastcopyrightpara{
+     padding-left: 0px;
+ }
+ 
+}
+
+
+
+@media only screen and (max-width:991px){
+ .navul{
+     display: inline-block ;
+     text-align: left;
+     padding: 0;
+     margin: 0;
+     padding-top: 10px;
+     
+ }   
+ .navlis{
+  
+     padding-bottom: 6px;
+
+
+ }
+ .nav-item:hover{
+   border-radius: 0px;
+   display: block;
+    
+ 
+    color: white;
+   margin: 0;
+   padding-top: 0px ;
+
+    background-color: #316DC3;
+}
+
+nav .navbar-nav .dropdown-menu{
+    border-color: white; font-size: 12px;
+    border-radius: 0px;
+  
+    margin-left: -20px;
+    margin-bottom: -10px;
+    
+  }
+  .logo{
+      width: 20%;
+  }
+}
