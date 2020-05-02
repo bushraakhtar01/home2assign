@@ -15,14 +15,11 @@
 }
 .headericonsul{
 
-    
-  
     padding: 0px;
    
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-    
 
    }
  
@@ -233,9 +230,8 @@ p>a{
     padding-top: 2%;
     padding-bottom: 7% ;
     
-       
-
 }
+
 .Icons{
     display: block; padding: 2%; margin: 50px auto 0px auto; height: 50px;
 }
@@ -283,7 +279,8 @@ margin: 0px auto 0px auto;
 }
 .whatcard>img{
     padding-top:10%;
-    height: 100px;
+ 
+    
    
 }
 .card-heading{
@@ -456,7 +453,171 @@ margin-left: 10px;
     margin-top: -10px;
   
   }
-@media only screen and (max-width: 767px) {
+
+
+
+  .box{
+    margin: 70px auto 150px auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+}
+/* .innerbox{
+    width: 230px;
+} */
+.box >img {
+     height: 25vh;
+     
+}
+/* .image1{
+    margin-left: 26%;
+}
+.image2{
+    margin-left: 13%;
+}
+.image4{
+    margin-left: -13%;
+}
+.image5{
+    margin-left: -26% ;
+} */
+
+
+  @media only screen and (max-width:479px){
+      .logo{
+          width: 30%;
+      }
+    .navul{
+        display: inline-block ;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+        
+    }   
+    .navlis{
+     
+        padding-bottom: 6px;
+   
+   
+    }
+    .nav-item:hover{
+      border-radius: 0px;
+      display: block;
+       
+    
+       color: white;
+      margin: 0;
+      padding-top: 0px ;
+   
+       background-color: #316DC3;
+   }
+   
+   nav .navbar-nav .dropdown-menu{
+       border-color: white; font-size: 12px;
+       border-radius: 0px;
+     
+       margin-left: -20px;
+       margin-bottom: -10px;
+       
+     }
+    .introheading{
+        font-size: 25.6px ;
+    }
+    .spanduction{
+        font-size: 25.6px ;
+    }
+    .dastr{
+        padding-bottom: 10%;
+    }
+    .whatcard>img{
+        width: 12%;
+    }
+    .IconHeading1{
+        font-size: 38.4px;
+    }
+    .footercols{
+        padding-bottom:0px;
+    }
+    .footercolmiddle{
+
+        padding-bottom: 0px;
+      
+        
+    }
+    .footercollast{
+        padding-bottom: 30px;
+    }
+    .footerpara{
+        margin-left: 0px;
+    }
+    .footerul{
+        margin: 0;
+        padding: 0;
+        margin-top: -20px;
+ 
+     
+
+    }
+    
+.box{
+  
+    display: flex;
+    margin-bottom: 80px;
+  
+}
+
+.box >img {
+     height: 32vh;
+     justify-content: flex-start;
+     padding-left: 5px;
+     margin-bottom: 9%;
+     width: 90%;
+     
+}
+  }
+@media only screen and (min-width:479px) and (max-width: 767px) {
+    .logo{
+        width: 30%;
+    }
+    .navul{
+        display: inline-block ;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+        
+    }   
+    .navlis{
+     
+        padding-bottom: 6px;
+   
+   
+    }
+    .nav-item:hover{
+      border-radius: 0px;
+      display: block;
+       
+    
+       color: white;
+      margin: 0;
+      padding-top: 0px ;
+   
+       background-color: #316DC3;
+   }
+   
+   nav .navbar-nav .dropdown-menu{
+       border-color: white; font-size: 12px;
+       border-radius: 0px;
+     
+       margin-left: -20px;
+       margin-bottom: -10px;
+       
+     }
+     .carouselbelowtext{
+         font-size: 12px;
+     }
     .footercols{
         padding-bottom:20px;
     }
@@ -474,9 +635,26 @@ margin-left: 10px;
         padding: 0;
         margin-top: -20px;
  
-      
+     
 
     }
+    .IconHeading1{
+        font-size: 40.8px;
+    }
+    .introheading{
+        font-size: 27.2px ;
+    }
+    .spanduction{
+        font-size: 27.2px ;
+    }
+    .Icons{
+        width: 70px;
+        height: 70px;
+    }
+    .dastr{
+        padding-bottom: 10%;
+    }
+   
  .footerlis{
      display: inline-block;
      padding-left: 15px;
@@ -492,11 +670,38 @@ margin-left: 10px;
      padding-left: 0px;
  }
  
+.box{
+  
+    display: flex;
+
+  
+
+  
+
+}
+/* .innerbox{
+   
+    width: 300px;
+    
+
+    background-color: indigo;
+    padding-left: 5px;
+    padding-bottom: 100px;
+} */
+.box >img {
+     height: 25vh;
+
+     justify-content: flex-start;
+     padding-left: 5px;
+     margin-bottom: 9%;
+     
+     
+}
 }
 
 
 
-@media only screen and (max-width:991px){
+@media only screen and (min-width:768px) and (max-width:991px){
  .navul{
      display: inline-block ;
      text-align: left;
@@ -534,4 +739,42 @@ nav .navbar-nav .dropdown-menu{
   .logo{
       width: 20%;
   }
+  .carouselbelowtext{
+      font-size: 13px;
+  }
+  .introheading{
+    font-size: 28.2px ;
+}
+.spanduction{
+    font-size: 28.2px ;
+}
+.dastr{
+    padding-bottom: 10%;
+}
+
+.box{
+  
+    display: flex;
+  
+
+  
+
+}
+/* .innerbox{
+   
+    width: 300px;
+    
+
+    background-color: indigo;
+    padding-left: 5px;
+    padding-bottom: 100px;
+} */
+.box >img {
+     height: 25vh;
+     justify-content: flex-start;
+     padding-left: 5px;
+     margin-bottom: 9%;
+     
+     
+}
 }
